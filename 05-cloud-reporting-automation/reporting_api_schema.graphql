@@ -1,0 +1,11 @@
+# Example GraphQL schema
+type Metrics {
+  date: String!
+  total_amount: Float!
+  count: Int!
+  avg_amount: Float!
+}
+
+type Query {
+  dailyMetrics(date: String): Metrics
+}
