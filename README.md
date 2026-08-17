@@ -5,6 +5,21 @@ This portfolio highlights my work in building **scalable ETL pipelines, data aut
 
 ---
 
+## 💼 Professional Experience
+
+### NIKE | Senior Data Engineer | Jan 2026 – May 2026
+- Built **Medallion Architecture** pipelines using **Databricks, Delta Lake, Snowflake, and Kafka** to support retail analytics.
+- Designed scalable ingestion using **AWS API Gateway, Lambda, S3, Kafka, and Databricks Auto Loader**.
+- Developed **Python-based AWS Lambda** functions for ingestion, validation, and event-driven processing.
+- Implemented **Delta Lake CDF, checkpointing, schema evolution, and incremental processing** for reliable data pipelines.
+- Optimized **PySpark** workloads using partitioning, caching, broadcast joins, and Z-Ordering.
+- Built **Kafka-based streaming pipelines** for near real-time analytics and reusable transformation patterns for enterprise data workflows.
+- Built **RAG-based semantic search** solutions by converting curated enterprise data into embeddings and enabling natural-language access to trusted business data.
+- Implemented **CI/CD pipelines using GitHub Actions and Azure DevOps** for automated testing and deployments.
+- Collaborated with data architects, modelers, product owners, and engineering teams to translate business requirements into scalable technical solutions.
+
+---
+
 ## 🚀 Featured Projects
 
 ### 🧩 1. Databricks ETL Pipeline
