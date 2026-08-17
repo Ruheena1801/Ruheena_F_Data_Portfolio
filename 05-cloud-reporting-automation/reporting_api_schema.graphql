@@ -1,9 +1,17 @@
-# Example GraphQL schema
+# Illustrative API contract for the portfolio sample.
+# Included to show how curated reporting metrics could be exposed to a UI.
+
+type RegionMetric {
+  region: String!
+  revenue: Float!
+}
+
 type Metrics {
-  date: String!
+  report_date: String!
   total_amount: Float!
-  count: Int!
-  avg_amount: Float!
+  order_count: Int!
+  avg_order_value: Float!
+  revenue_by_region: [RegionMetric!]!
 }
 
 type Query {
